@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Internet Freedom Foundation',
   tagline: 'Knowledge Base',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://security.internetfreedom.in',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'InternetFreedomFoundation', // Usually your GitHub org/user name.
+  projectName: 'knowledge-base', // Usually your repo name.
 
   presets: [
     [
