@@ -1,6 +1,6 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is built to be purposed as Knowledge base or wiki from IFF. Initally this repo will host Digital Security related content.
 
 ### Installation
 
