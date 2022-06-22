@@ -79,16 +79,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Forum',
+                href: 'https://forum.internetfreedom.in',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Telegram',
+                href: 'https://telegram.me/+LrcWd9nNHWowMGNl',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/internetfreedom',
               },
             ],
           },
@@ -96,8 +96,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Website',
+                to: 'https://internetfreedom.in',
               },
               {
                 label: 'GitHub',
