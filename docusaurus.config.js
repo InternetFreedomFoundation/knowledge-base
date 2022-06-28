@@ -49,12 +49,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'right',
+          //   label: 'Tutorial',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/InternetFreedomFoundation/knowledge-base',
@@ -98,6 +98,10 @@ const config = {
               {
                 label: 'Website',
                 to: 'https://internetfreedom.in',
+              },
+              {
+                label: 'About IFF',
+                to: 'https://internetfreedom.in/about',
               },
               {
                 label: 'GitHub',
