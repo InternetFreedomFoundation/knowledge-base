@@ -3,41 +3,40 @@ import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
+  // {
+  //   title: 'Easy to Use',
+  //   Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+  //   description: (
+  //     <>
+  //       Docusaurus was designed from the ground up to be easily installed and
+  //       used to get your website up and running quickly.
+  //     </>
+  //   ),
+  // },
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
+    title: 'Welcome to the IFF Wiki!',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       The right to information and knowledge is intrinsically tied to the right to free speech and expression, and together these rights form the bedrock of a democratic society. In such a society, citizens are empowered to stand up for themselves, their communities, along with those who have been systematically oppressed as well as denied their rights within society and politics. Team IFF’s ardent hope is that knowledge doesn’t remain concealed or consolidated by the privileged few in power and that it benefits all who seek it.
       </>
     ),
   },
-  {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+  // {
+  //   title: 'Powered by React',
+  //   Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+  //   description: (
+  //     <>
+  //       Extend or customize your website layout by reusing React. Docusaurus can
+  //       be extended while reusing the same header and footer.
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
